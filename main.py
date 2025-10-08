@@ -5,7 +5,7 @@ if 'tasks' not in st.session_state:
     st.session_state.tasks = []
 
 st.set_page_config(layout="wide")
-st.title("!TaskIt")
+st.title("!Task-Tracker!!!!")
 
 new_task = st.text_input('Enter your Task')
 if st.button('Add'):
