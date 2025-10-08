@@ -15,5 +15,6 @@ spec:
       containers:
       - name: taskit
         image: sktasktracker.azurecr.io/taskit-app:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 8501
